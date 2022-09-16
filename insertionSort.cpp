@@ -18,17 +18,6 @@ void insertionSort(int arr[],int n){
     }
 }
 
-void display(int *arr, int n){
-
-    for (int i = 0 ; i < n ; i++){
-
-        cout << "[" << arr[i] << "]";
-        if(i  < n-1){
-            cout << ", ";
-        }
-    }
-}
-
 void delete_dup(int arr[], int &n) {
 
     int j = 0;
@@ -42,21 +31,19 @@ void delete_dup(int arr[], int &n) {
     n = j;
 }
 
+void display(int *arr, int n){
+
+    for (int i = 0 ; i < n ; i++){
+
+        cout << "[" << arr[i] << "]";
+        if(i  < n-1){
+            cout << ", ";
+        }
+    }
+}
+
 int main(){
 
-    int arr[] = {5,4,3,2,1,1};
-
-    int n = sizeof(arr) / sizeof(arr[0]);
-
-    cout << "\nBefore sorting: \n" << "\t" ; display(arr,n);
-
-    insertionSort(arr,n);
-
-    cout << "\nAfter sorting: \n" << "\t" ; display(arr,n);
-
-    delete_dup(arr, n);
-
-    cout << "\nAfter removing duplicates: ->" <<  " new size: " << n << "\n\t" ; display(arr,n);
 
     return 0;
 }
