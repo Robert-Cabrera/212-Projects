@@ -7,21 +7,21 @@ int BinarySearch(int arr[], int left, int right, int target)
 
 if(right >= left)
 {
-    int m = left + (right-left)/2;
+    int mid = left + (right-left)/2;
 
-    if(arr[m] == target)
+    if(arr[mid] == target)
     {
-        return m;
+        return mid;
     }
     
-    if(arr[m] > target)
+    if(arr[mid] > target)
     {
-        return BinarySearch(arr, left, m-1, target);
+        return BinarySearch(arr, left, mid-1, target);
     }
 
     else
     {
-         return BinarySearch(arr, m + 1, right, target);
+         return BinarySearch(arr, mid + 1, right, target);
     }
 }
 
