@@ -28,18 +28,3 @@ if(right >= left)
     return -1;
 
 }
-int main(){
-
-int arr[5] = {4,5,6,7,8};
-
-int r = ( sizeof(arr) / sizeof(arr[0]) );
-int l = 0;
-int target = 4;
-
-int result = BinarySearch(arr, l, r-1, target);
-
-(result == -1) ? cout << "Element is not in the list \n" 
-               : cout << "Element is in position " << result + 1 << "! \n";
-
-    return 0;
-}
