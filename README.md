@@ -1,6 +1,6 @@
 # 212-Projects
 
-This is a repository that contians the most relevant code from my data structure class
+This is a repository that contains relevant code from my data structure class
 
 The following implementations will be included:
   Merge Sort
