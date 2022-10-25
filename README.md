@@ -1,5 +1,6 @@
 # 212-Projects
 
+<pre>
 This is a repository that contains relevant code from my data structure class
 
 The following implementations will be included:
@@ -14,3 +15,4 @@ The following data structure implementations will be included:
   A doubly linked list with relevant methods
   An open adressing hash table that uses quadratic probing
   A binary search tree that allows deletion
+</pre>
