@@ -45,21 +45,3 @@ void QuickSort(vector <int> &V, int left, int right)
         QuickSort(V, pivot + 1, right);
     }
 }
-
-int main(){
-
-vector<int> vec = {5,4,3,2,1,6};
-
-for(int i : vec)
-    cout << i << "  ";
-
-
-cout << "\n\n";
-
-QuickSort(vec, 0, vec.size()-1);
-
-for(int i : vec)
-    cout << i << "  ";
-
-    return 0;
-}
