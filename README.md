@@ -7,6 +7,7 @@ The following implementations will be included:
   Merge Sort
   Insertion Sort
   Binary Search
+  QuickSort
   Floyd's Cycle Finding Algorithm
  
 The following data structure implementations will be included:
