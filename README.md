@@ -8,7 +8,7 @@ The following implementations will be included:
   Binary Search
   Floyd's Cycle Finding Algorithm
  
-The following data structure implementations will be included:\
+The following data structure implementations will be included:
   A stack from 2 queues
   A queue from 2 stacks
   A doubly linked list with relevant methods
