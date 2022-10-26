@@ -27,7 +27,11 @@ private:
     Node* tail;
 
 public:
-    D_LinkedList() = default;
+    D_LinkedList()
+    {
+        head = nullptr;
+        tail = nullptr;
+    }
 
     ~D_LinkedList()
     {
