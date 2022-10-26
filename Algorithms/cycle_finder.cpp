@@ -1,7 +1,6 @@
 #include <iostream>
 #include "doublyLinkedList.hpp"
 
-
 //Floyd's Algorithm to find a loop in a linked list
 
 bool cycle_finder(Node *head)
@@ -22,3 +21,4 @@ while(slow && fast && fast->next)
 return false;
 
 }
+
