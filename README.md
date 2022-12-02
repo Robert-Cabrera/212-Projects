@@ -14,6 +14,5 @@ The following data structure implementations will be included:
   A stack from 2 queues
   A queue from 2 stacks
   A doubly linked list with relevant methods
-  An open adressing hash table that uses quadratic probing
   A binary search tree that implements deletion
 </pre>
